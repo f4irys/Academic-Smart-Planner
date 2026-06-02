@@ -43,6 +43,11 @@ DependencyGraph.h / DependencyGraph.cpp
 
 ## Instrucciones de compilación y ejecición
 
+Primero, entrar a la carpeta del proyecto:
+
+```bash
+cd lab03
+
 Para compilar el proyecto se abre la terminal en la carpeta donde se encuentran los archivos .cpp y .h y se ejecuta:
 
 g++ -std=c++17 -Wall -Wextra -pedantic main.cpp Task.cpp TaskList.cpp TaskQueue.cpp ActionStack.cpp SearchIndex.cpp DependencyGraph.cpp -o planner
