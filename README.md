@@ -41,16 +41,28 @@ SearchIndex.h / SearchIndex.cpp
 DependencyGraph.h / DependencyGraph.cpp
 ```
 
-## Instrucciones de compilación y ejecición
+## Instrucciones de compilación y ejecución
 
 Primero, entrar a la carpeta del proyecto:
 
 ```bash
 cd lab03
+```
 
-Para compilar el proyecto se abre la terminal en la carpeta donde se encuentran los archivos .cpp y .h y se ejecuta:
+Para compilar el proyecto, abre la terminal en la carpeta donde se encuentran los archivos `.cpp` y `.h` y ejecuta:
 
+```bash
 g++ -std=c++17 -Wall -Wextra -pedantic main.cpp Task.cpp TaskList.cpp TaskQueue.cpp ActionStack.cpp SearchIndex.cpp DependencyGraph.cpp -o planner
+```
 
-Luego para ejecutar el programa:
+Luego, para ejecutar el programa:
+
+```bash
 ./planner
+```
+
+En Windows, también puedes ejecutarlo con:
+
+```bash
+planner.exe
+```
