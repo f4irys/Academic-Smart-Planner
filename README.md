@@ -39,3 +39,10 @@ ActionStack.h / ActionStack.cpp
 TaskQueue.h / TaskQueue.cpp
 SearchIndex.h / SearchIndex.cpp
 DependencyGraph.h / DependencyGraph.cpp
+
+## Instrucciones de compilación y ejecición
+
+Para compilar el proyecto se abre la terminal en la carpeta donde se encuentran los archivos .cpp y .h y se ejecuta:
+g++ -std=c++17 -Wall -Wextra -pedantic main.cpp Task.cpp TaskList.cpp TaskQueue.cpp ActionStack.cpp SearchIndex.cpp DependencyGraph.cpp -o planner
+Luego para ejecutar el programa:
+./planner
